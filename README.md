@@ -1,0 +1,1 @@
+This is a front end of the Netflix site using tailwind css.
