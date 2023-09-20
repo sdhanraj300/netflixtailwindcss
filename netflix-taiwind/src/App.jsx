@@ -1,9 +1,15 @@
 import React from "react";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import { Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
-    <div className="bg-blue-500 text-white p-4">
-      This is a Tailwind CSS component.
+    <div>
+    <Navbar/>
+    <Routes>
+    <Route path="/" element={<Home/>}></Route>
+    </Routes>
     </div>
   );
 };
